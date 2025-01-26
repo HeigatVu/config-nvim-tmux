@@ -11,8 +11,8 @@ keymap.set("n", "<leader>ww", ":w<CR>") -- save
 keymap.set("n", "gx", ":!open <c-r><c-a><CR>") -- open URL under cursor
 
 -- Split window management
-keymap.set("n", "<leader>v", "<C-w>v") -- split window vertically
-keymap.set("n", "<leader>h", "<C-w>s") -- split window horizontally
+keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
+keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width
 keymap.set("n", "<leader>sx", ":close<CR>") -- close split window
 keymap.set("n", "<leader>sj", "<C-w>-") -- make split window height shorter
